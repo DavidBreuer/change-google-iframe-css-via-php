@@ -15,7 +15,9 @@ To develop these changes, instructions for setting up a local Apache webserver u
 Install Apache under Linux (L)Ubuntu:
 
 sudo apt-get install apache2 php libapache2-mod-php
+
 sudo service apache2 status
+
 sudo service apache2 start
 
 Copy repository files to webserver:
