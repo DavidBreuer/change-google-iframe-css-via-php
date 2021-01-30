@@ -1,0 +1,242 @@
+/* ------------------------- global ------------------------- */
+
+:root {
+    --main-primary: #373737ff;
+    --main-secondary: #37373733;
+    --main-none: #fff;
+}
+
+
+body {
+  color: var(--main-primary);
+  font-size: 8px !important;
+}
+
+.loading {
+    color: var(--main-primary);
+    background-color: var(--main-none);
+}
+
+/* ------------------------- month ------------------------- */
+
+.mv-daynames-table,
+.ui-rtsr-unselected,
+.ui-rtsr-selected,
+.view-cap,
+.view-container-border {
+    background-color: var(--main-none);
+}
+
+
+button {
+  background-color: var(--main-none);
+  border: none;
+}
+
+.today-button {
+    font-size: 100%;
+    color: var(--main-primary)
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mv-daynames-table {
+    color: var(--main-primary);
+    background-color: var(--main-none);
+    border:none
+}
+
+.te-t,
+.te-s {
+    color: var(--main-primary) !important;
+}
+
+#tab-controller-container-week,
+#tab-controller-container-month,
+#tab-controller-container-agenda {
+    color: var(--main-primary);
+}
+
+.navBack {
+    background-image: none;
+    width: 0;
+    height: 0;
+    border-top: 8px solid var(--main-none) !important;
+    border-bottom: 8px solid var(--main-none) !important;
+    border-right:8px solid var(--main-primary) !important;
+    margin-right: 5px;
+}
+.navForward {
+    background-image: none;
+    width: 0;
+    height: 0;
+    border-top: 8px solid var(--main-none) !important;
+    border-bottom: 8px solid var(--main-none) !important;
+    border-left: 8px solid var(--main-primary) !important;
+}
+
+.st-bg-today, .st-bg-td-first {
+    background: var(--main-secondary);
+    border-left: 1px solid var(--main-secondary);
+    border-right: none;
+}
+
+.st-dtitle-today {
+    background-color: var(--main-secondary);
+    border: none;
+}
+
+.mv-event-container {
+    border: none;
+}
+
+.st-dtitle {
+    border-left: 1px solid var(--main-secondary);
+    border-top: 1px solid var(--main-secondary);
+    border-bottom: 1px solid var(--main-secondary);
+    background: var(--main-secondary);
+    color: var(--main-primary);
+}
+
+.logo-plus-button,
+.calendar-nav,
+#dateMenuArrow1,
+#calendarTitle,
+#td-print-image-id,
+#td-print-text-id {
+    display: none;
+}
+
+
+.dp-monthtablediv {
+    border: none;
+}
+
+.dp-cell,
+.dp-weekday-selected,
+.dp-weekend-selected {
+    color: var(--main-primary);
+    background-color: var(--main-none);
+}
+
+.dp-cur {
+    color: var(--main-primary);
+}
+
+.dp-popup {
+    position: absolute;
+    border: 1px solid var(--main-primary);
+    background: var(--main-none);
+}
+
+.dp-today-selected {
+    background: var(--main-secondary);
+    background-color: var(--main-secondary);
+    border-color: var(--main-primary);
+}
+
+/* ------------------------- week ------------------------- */
+
+#calendarContainer1 {
+    color: var(--main-primary);
+    background-color: var(--main-none);
+}
+
+.chip,
+.cbrd,
+.wk-dayname,
+.wk-dummyth,
+.wk-weektop {
+    color: var(--main-primary);
+    background-color: var(--main-none);
+}
+
+.wk-allday,
+.wk-webcontent {
+    display: none;
+}
+
+.cbrd {
+    color: white !important;
+    background-color: var(--main-primary) !important;
+    border: none !important;
+}
+
+.cbrd dt {
+    margin-top: 0;
+    background-color: var(--main-primary) !important;
+}
+
+.wk-today {
+    border: none;
+    background-color: var(--main-none) !important;
+}
+
+.wk-scrolltimedevents {
+    border: 1px solid var(--main-secondary);
+}
+
+.tg-today {
+    border: 1px solid var(--main-secondary);
+    background-color: var(--main-secondary) !important;
+}
+
+.tg-col-today {
+    border: none;
+}
+
+dd {
+    line-height: 0.8 !important;
+    margin-top: 5px !important;
+}
+
+.ctdiv {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.cloc {
+    font-size: 5px;
+    line-height: 0.8;
+}
+
+
+/* ------------------------- agenda ------------------------- */
+
+
+.agenda {
+    font-style: normal;
+}
+
+.agenda .day {
+    border: none;
+}
+
+.agenda .date-label {
+    background: var(--main-secondary);
+}
+
+.event,
+.event-title {
+    color: var(--main-primary) !important;
+}
+
+.agenda .event {
+    border: none;
+}
+
+.underflow-top,
+.underflow-bot
+{
+    color: var(--main-secondary);
+    font-style: normal !important;
+}
+
+.agenda-more {
+    color: var(--main-primary);
+    text-decoration: none;
+}
+
+
+/* ------------------------- end ------------------------- */
